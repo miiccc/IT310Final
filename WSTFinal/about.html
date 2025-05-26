@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Team Section</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open-Sans', sans-serif;
+  background-color: #7b4397;
+}
+
+.container {
+  background-color: #7b4397;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bsit {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.members {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 1.8em;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+nav a.home:hover,
+nav a.about:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.home {
+  margin-right: 30px;
+}
+
+.wrapper {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.wrapper h1 {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 3em;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team_member {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team_member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.team_img {
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid #7b4397;
+}
+
+.team_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team_member h3 {
+  font-size: 1.3em;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.team_member .role {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.team_member p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #555;
+}
+
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bsit"><em>BSIT 3A-G2</em></div>
+    <h1 class="members">MichaelAngelo-Vhernielyn</h1>
+    <nav>
+      <a href="/WSTFinal/index.php" class="home">HOME</a>
+      <a href="/WSTFinal/about.html" class="about">ABOUT</a>   
+    </nav>
+  </div>
+  
+
+<div class="wrapper">
+  <h1>Our Team</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="mic.jfif" alt="Team_image">
+      </div>
+      <h3>Michael Angelo Pahati</h3>
+      <p class="role">Backend</p>
+      <p>Age: 26</p>
+      <p>Address: Paombong, Bulacan</p>
+      <p>Hobbies: Gaming, Music, Sleeping</p>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="vher.png" alt="Team_image">
+      </div>
+      <h3>Vherniely Alyza Aquino</h3>
+      <p class="role">Frontend</p>
+      <p>Age: 21</p>
+      <p>Address: Malolos, Bulacan</p>
+      <p>Hobbies: Music, Fashion, Reading</p>
+    </div>
+  </div>
+</div>	
+
+</body>
+</html>
